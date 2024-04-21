@@ -1,0 +1,18 @@
+﻿<Window x:Class="PasswordLoginForm2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PasswordLoginForm2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Username:" HorizontalAlignment="Left" Margin="232,118,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="238,168,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtBoxUsername" HorizontalAlignment="Left" Margin="315,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox x:Name="txtBoxPassword" HorizontalAlignment="Left" Margin="315,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="btnSignIn" Content="Sign in" HorizontalAlignment="Left" Margin="338,216,0,0" VerticalAlignment="Top" Click="btnSignIn_Click" Width="74"/>
+        <Button x:Name="btnSignUp" Content="Sign up" HorizontalAlignment="Left" Margin="338,241,0,0" VerticalAlignment="Top" Width="74" Click="btnSignUp_Click"/>
+
+    </Grid>
+</Window>
